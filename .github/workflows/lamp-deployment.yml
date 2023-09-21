@@ -13,7 +13,7 @@ jobs:
         uses: ansible/ansible-lint-action@eb92667
         with:
           targets:
-           ./playbook.yml
-           ./inventory.yml
+            playbook.yml
+            inventory.yml
           
 

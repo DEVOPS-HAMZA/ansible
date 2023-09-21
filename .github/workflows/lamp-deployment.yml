@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
-        uses: action/checkout@v2
+        uses: action/checkout
       - name: linting
         uses: ansible/ansible-lint-action@eb92667e07cc18e1d115ff02e5f07126310cec11
         with:
